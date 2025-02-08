@@ -38,8 +38,8 @@ function renderProducts() {
     products2.forEach((e) => {
       let encodedProduct = encodeURIComponent(JSON.stringify(e));
         let productloop= `
-         <div class="col-lg-4 col-md-3 col-sm-12 my-3">
-         <div class="card w-75 shadow-lg p-3 mb-5 bg-body-tertiary rounded"style="height:500px " >
+         <div class="col-lg-3 col-md-4 col-sm-12 my-3">
+         <div class="card w-100 shadow-lg p-3 mb-5 bg-body-tertiary rounded"style="height:500px " >
        <img src="${e.image}" class="card-img-top" alt="${e.name}" height="300px">
        <div class="card-body">
          <h5 class="card-title">${e.name}</h5>

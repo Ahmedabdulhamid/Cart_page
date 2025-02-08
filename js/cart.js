@@ -24,7 +24,7 @@ function renderProducts() {
         <th scope="row">${index + 1}</th>
         <td>${e.name}</td>
         <td>
-          <img src="${e.image}" width="20%" height="20%">
+          <img src="${e.image}" class="img-fluid" style="max-width: 80px; height: auto;">
         </td>
         <td>
           <button class="btn btn-sm" onClick="increment(${e.id})">+</button>

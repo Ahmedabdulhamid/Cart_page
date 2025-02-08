@@ -1,0 +1,9 @@
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto; /* تمكين التمرير الأفقي عند الحاجة */
+  }
+  
+  table {
+    min-width: 600px; /* منع الجدول من الانكماش */
+    width: 100%;
+  }
