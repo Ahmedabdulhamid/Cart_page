@@ -1,0 +1,16 @@
+.gradient-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .orange {
+    background: linear-gradient(to right, #f97316, #ea580c);
+  }
+  a{
+    text-decoration: none;
+    color: #f97316 !important;
+  }
